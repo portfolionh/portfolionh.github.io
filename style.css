@@ -1,0 +1,249 @@
+*{
+	font-family: 'Raleway', medium;
+}
+header {
+	background: linear-gradient(45deg, #64ff45, #ccffc4);
+	color: #fff;
+}
+nav {
+	margin-left: 9%;
+}
+header a {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navbar-brand {
+	font-size: 24px;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.navbar-brand:hover {
+	color: #fff;
+	transform: scale(1.1);
+}
+
+header a:hover {
+ 	color: #c8feef;
+}
+header p {
+	width: 70%;
+	text-align: justify;
+	font-size: 16px;
+}
+ 
+header h2 {
+	text-transform: uppercase;
+	margin-bottom: 3%;
+}
+
+.text-area {
+	margin-left: 10%;
+}
+
+.navbottom {
+	margin-top: 5%;
+	display: flex;
+}
+
+.dw {
+	background-color:#e1fdff;
+	color: #82ff69;
+	font-size: 20px;
+}
+
+.rm {
+	border-color: #e1fdff;
+	margin-left: 5%;
+	color:#e1fdff;
+	font-size: 20px;
+
+}
+
+.dw:hover {
+	border-color: #e1fdff;
+	color:#e1fdff;
+	background-color: transparent;
+}
+
+.rm:hover{
+	background-color:#e1fdff;
+	color: #82ff69;
+}
+.about-app {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5%;
+}
+.appheader {
+	display: flex;
+	justify-content: space-around;
+}
+.aboutheader h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.appbody {
+	display: flex;
+	justify-content: space-around;
+}
+.aboutbody {
+	width: 80%;
+	margin-top: 5%;
+	display: flex;
+}
+.aboutbody p {
+	text-align: justify;
+	margin-left: 5%;
+}
+
+
+.feauters {
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 5%;
+}
+
+.ftrs-header {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5%;
+}
+
+.fts-header {
+	text-align: center;
+}
+.fts-header  h6 {
+	color: #646464;
+}
+
+.ftr-body {
+	display: flex;
+	justify-content: space-between;
+}	
+
+.block {
+	width: 28%;
+	display: flex;
+	flex-direction: column;
+}
+.block  img{
+	margin-left: 10%;
+	width: 250px;
+	height: 250px;
+}
+.block h6 {
+	margin-top: 5%;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 4%;
+}
+.block p {
+	text-align: justify;
+}
+.download {
+	padding-top: 5%;
+	background: linear-gradient(45deg, #64ff45, #ccffc4);
+	padding-bottom: 5%;
+}
+.dnld-header {
+	display: flex;
+	justify-content: space-around;
+}
+.download-header h1{
+	text-align: center;
+}
+
+.download-body {
+	margin-top: 8%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.download-body h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.download-body p {
+	text-align: justify;
+	margin-bottom: 10%;
+
+}
+
+.block1 {
+	width: 35%;
+}
+
+img.dwnl {
+	width: 400px;
+	height: 324px;
+}
+
+.pres-header {
+	display: flex;
+	justify-content: space-around;
+}
+.pres-header h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pres-body {
+	margin-top: 5%;
+	padding-top: 5%;
+	background-color: #f4f4f4;
+	padding-bottom: 5%;
+}
+.content {
+	display: flex;
+	justify-content: space-around;
+}
+.pres-body h1{
+	margin-top: 5%;
+	text-align: center;
+}
+.pres-body p {
+	margin-top: 5%;
+	text-align: justify;
+}
+
+.presentation {
+	padding-top: 5%;
+}
+
+.cnt-header {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cnt-header h1{
+	text-align: center;
+}
+
+.contact-body form {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+form .group1 {
+	width: 50%;
+}
+form .group2{
+	width: 40%;
+}
+.contact-body {
+	margin-top: 10%;
+}
+.contact {
+	padding: 10%;
+	background: linear-gradient(45deg, #64ff45, #ccffc4);
+}
