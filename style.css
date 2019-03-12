@@ -27,11 +27,11 @@ header a:hover {
  	color: #c8feef;
 }
 header p {
-	width: 70%;
+	width: 60%;
 	text-align: justify;
 	font-size: 16px;
 }
- 
+
 header h2 {
 	text-transform: uppercase;
 	margin-bottom: 3%;
@@ -59,10 +59,7 @@ header h2 {
 	font-size: 20px;
 
 }
-.photo {
-	bottom: 0;
-	right: 0;
-}
+
 .dw:hover {
 	border-color: #e1fdff;
 	color:#e1fdff;
@@ -139,29 +136,11 @@ header h2 {
 	justify-content: space-between;
 }	
 
-.block {
-	width: 28%;
-	display: flex;
-	flex-direction: column;
-}
 .imagecont {
 	display: flex;
 	justify-content: space-around;
 }
-.block  img{
-	min-width: 10%;
-	max-width: 80%;
-	min-height: 10%;
-	max-height: 80%;
-}
-.block h6 {
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 4%;
-}
-.block p {
-	text-align: justify;
-}
+
 .download {
 	padding-top: 5%;
 	background: linear-gradient(45deg, #64ff45, #ccffc4);
@@ -175,25 +154,6 @@ header h2 {
 	text-align: center;
 }
 
-.download-body {
-	margin-top: 8%;
-	display: flex;
-	justify-content: space-between;
-
-}
-
-.download-body h3 {
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-bottom: 5%;
-	text-align: center;
-}
-
-.download-body p {
-	text-align: justify;
-	margin-bottom: 10%;
-
-}
 
 .main-block {
 	display: flex;

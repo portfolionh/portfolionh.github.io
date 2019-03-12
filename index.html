@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
@@ -9,10 +10,10 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-expand-xs navbar-light">
+		<nav class="navbar navbar-expand-md navbar-light">
 			<div class="container-fluid">
 				<div class="navbar-header">
-			      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="true" aria-label="Toggle navigation">
+			      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
 			    	<span class="navbar-toggler-icon"></span>
 			  	</button>
 			  	<a class="navbar-brand" href="#">APP</a>
@@ -36,11 +37,11 @@
 					<button type="button" class="btn rm">Read More</button>
 			</div>
 			<div class="photo">
-					<img src="img/hphone.png" alt="" class="responsive">
+					<img src="img/hphone.png" alt="" width="120%" >
 			</div>
 		</div>
 	</header>
-	<main class="expand-xs">
+	<main >
 		<div class="about-app container">
 			<div class="appheader">
 				<div class="aboutheader">
@@ -51,7 +52,7 @@
 			<div class="appbody">
 				<div class="aboutbody">
 					<div class="imgcont">
-						<img src="img/bphone.png" alt="" width="230" height="450">
+						<img src="img/bphone.png" alt="" width="80%">
 					</div>
 					<div class="contwrapper">
 						<p>
@@ -80,27 +81,27 @@
 					</div>
 				</div>
 
-					<div class="ftr-body">
-						<div class="block">
-							<div class="imagecont">
-								<img src="img/boost.png" alt="">
+					<div class="card-deck">
+						<div class="card" style="border:none; background-color: transparent;">
+							<img src="img/boost.png" alt="" class="card-img-top">
+							<div class="card-body">
+							<h6 class="card-title text-center" style="font-weight: bold; ">Lorem ipsum.</h6>
+							<p style="text-align: justify; " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel suscipit quam esse officiis corporis dicta, nulla laborum veritatis, cupiditate ab optio doloribus corrupti consectetur maiores ducimus assumenda repudiandae hic nam.</p>
 							</div>
-							<h6>Lorem ipsum.</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel suscipit quam esse officiis corporis dicta, nulla laborum veritatis, cupiditate ab optio doloribus corrupti consectetur maiores ducimus assumenda repudiandae hic nam.</p>
 						</div>
-						<div class="block">
-							<div class="imagecont">
-								<img src="img/lamp.png" alt="">
+						<div class="card" style="border:none; background-color: transparent;">
+							<img src="img/boost.png" alt="" class="card-img-top">
+							<div class="card-body">
+							<h6 class="card-title text-center" style="font-weight: bold; ">Lorem ipsum.</h6>
+							<p style="text-align: justify; " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel suscipit quam esse officiis corporis dicta, nulla laborum veritatis, cupiditate ab optio doloribus corrupti consectetur maiores ducimus assumenda repudiandae hic nam.</p>
 							</div>
-							<h6>Lorem ipsum.</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel suscipit quam esse officiis corporis dicta, nulla laborum veritatis, cupiditate ab optio doloribus corrupti consectetur maiores ducimus assumenda repudiandae hic nam.</p>
 						</div>
-						<div class="block">
-							<div class="imagecont">
-								<img src="img/map.png" alt="">
+						<div class="card" style="border:none; background-color: transparent;">
+							<img src="img/boost.png" alt="" class="card-img-top">
+							<div class="card-body">
+							<h6 class="card-title text-center" style="font-weight: bold; ">Lorem ipsum.</h6>
+							<p style="text-align: justify; " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel suscipit quam esse officiis corporis dicta, nulla laborum veritatis, cupiditate ab optio doloribus corrupti consectetur maiores ducimus assumenda repudiandae hic nam.</p>
 							</div>
-							<h6>Lorem ipsum.</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel suscipit quam esse officiis corporis dicta, nulla laborum veritatis, cupiditate ab optio doloribus corrupti consectetur maiores ducimus assumenda repudiandae hic nam.</p>
 						</div>
 					</div>
 
@@ -115,17 +116,21 @@
 						<h1>DOWNLOAD APP</h1>
 					</div>
 				</div>
-				<div class="download-body">
-					<div class="main-block">
-						<div class="block1">
-							<h3>Lorem ipsum dolor.</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto exercitationem, veritatis! Nam nobis facere tempore perferendis ea impedit eum cupiditate labore aliquam delectus fugit quos, laboriosam, numquam tempora, optio! Iste?
-							</p>
-							<img src="img/download.png" alt="" class="dwnl">
+				<div class="download-body " style="margin-top:5%; ">
+					<div class="card-deck">
+						<div class="card" style="background-color: transparent; border: none; " 		>
+							<div class="card-body">
+								<h3 class="card-title text-center bold" >Lorem ipsum dolor.</h3>
+								<p style="text-align: justify;">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto exercitationem, veritatis! Nam nobis facere tempore perferendis ea impedit eum cupiditate labore aliquam delectus fugit quos, laboriosam, numquam tempora, optio! Iste?
+								</p>
+								<img src="img/download.png" alt=""  class="card-img-bottom">
+							</div>
 						</div>
-						<div class="block2">
-							<img src="img/bphone.png" alt="">
+						<div class="card" style="background-color: transparent; border: none; ">
+							<div class="card-body">
+								<img src="img/bphone.png" alt="" >
+							</div>
 						</div>
 					</div>
 				</div>
